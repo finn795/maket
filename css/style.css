@@ -14,42 +14,244 @@ body {
 
 .main-header {
     width: 100%;
-    display: block;
-    box-sizing: border-box;
     background-image: url('../img/photo_11982.png');
     min-height: 1024px;
     margin: 0;
+    position: relative;
 }
 
-.logo-wrap{
+.navbar-logo {
     display: flex;
-    text-align: center;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
-.logo{
+.navbar-wrap {
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.logo-img {
+    display: block;
     margin: 40px 0 0 376px;
 }
 
-.logo-title{
-    display: block;
+.logo-title {
     font-family: Raleway;
     font-size: 34px;
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: -0.04em;
     color: #ffffff;
-    margin: 50px 0 0 0;
+    position: absolute;
+    left: 442px;
+    top: 55px;
 }
 
-.menu-wrap {
+.menu {
+    min-height: 14px;
+    margin: 62px 459px 0 0;
+}
+
+.menu-link:hover {
+    color: #f5470a;
+}
+
+.menu-link {
+    text-decoration: none;
+    padding: 0 30px 0 0;
+    font-size: 14px;
+    font-family: "Montserrat";
+    outline: none;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.menu-link-cart {
+    position: absolute;
+    left: 1472px;
+    top: 51px;
+    width: 18px;
+    height: 24px;
+}
+
+.menu-link-search {
+    position: absolute;
+    left: 1522px;
+    top: 55px;
+    width: 24px;
+    height: 24px;
+}
+
+.txt-wrap {
     display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin: 362px 0 0 0;
 }
 
-.menu-wrap-list {
-    
+.arrow-left {
+    position: absolute;
+    left: 150px;
+    top: 595px;
+    width: 40px;
+    height: 73px;
+    color: #a3a2a0;
+    opacity: 0.5;
 }
 
+.header-title {
+    width: 456px;
+    font-family: Raleway;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+}
 
+.header-psd {
+    width: 589px;
+    min-height: 50px;
+    font-family: Raleway;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.header-txt {
+    width: 562px;
+    min-height: 39px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.btn {
+    display: flex;
+    width: 170px;
+    min-height: 53px;
+    background-color: #998675;
+    border-radius: 3.0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn-text {
+    margin: auto;
+    width: 94px;
+    min-height: 11px;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+}
+
+.btn:hover {
+    color: red;
+    background-color: #020202;
+}
+
+.btn:active {
+    color: blue;
+    background-color: #f5850a;
+}
+
+.arrow-right {
+    position: absolute;
+    left: 1730px;
+    top: 595px;
+    width: 40px;
+    height: 73px;
+    color: #d3c1ad;
+    opacity: 0.5;
+}
+
+.slide1 {
+    opacity: 0.502;
+    position: absolute;
+    left: 909px;
+    top: 971px;
+    width: 11px;
+    height: 11px;
+}
+
+.slide2 {
+    position: absolute;
+    left: 930px;
+    top: 970px;
+    width: 19px;
+    height: 19px;
+}
+
+.slide3 {
+    opacity: 0.502;
+    position: absolute;
+    left: 955px;
+    top: 971px;
+    width: 11px;
+    height: 11px;
+}
+
+.slide4 {
+    opacity: 0.502;
+    position: absolute;
+    left: 975px;
+    top: 971px;
+    width: 11px;
+    height: 11px;
+}
+
+.slide5 {
+    opacity: 0.502;
+    position: absolute;
+    left: 996px;
+    top: 971px;
+    width: 11px;
+    height: 11px;
+}
+
+.services {
+    width: 100%;
+    min-height: 373px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.services-wrap {
+    margin: 80px 0 0 0;
+    padding: 20px;
+}
+
+.services-title {
+    font-family: Raleway;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.services-title-dev {
+    font-family: Raleway;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #c7b299;
+}
+
+.services-txt {
+    width: 266px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
